@@ -153,6 +153,7 @@
             this.RollAbiltiesButton.TabIndex = 12;
             this.RollAbiltiesButton.Text = "Roll Abilities";
             this.RollAbiltiesButton.UseVisualStyleBackColor = true;
+            this.RollAbiltiesButton.Click += new System.EventHandler(this.RollAbiltiesButton_Click);
             // 
             // AbilityForm
             // 
@@ -172,7 +173,6 @@
             this.Controls.Add(this.DexterityLabel);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.StrengthLabel);
-            this.Enabled = false;
             this.Font = new System.Drawing.Font("Lucida Sans", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.Name = "AbilityForm";
